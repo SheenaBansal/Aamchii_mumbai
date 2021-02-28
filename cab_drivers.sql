@@ -33,9 +33,6 @@ CREATE TABLE `cab_drivers` (
   `rating` int(11) DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `cab_drivers`
---
 
 INSERT INTO `cab_drivers` (`cab_id`, `email_id`, `rating`) VALUES
 (1, 'amr@gmail.com', 5),
