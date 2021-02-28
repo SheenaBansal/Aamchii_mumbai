@@ -29,7 +29,8 @@ CREATE TABLE `students` (
   PRIMARY KEY (`student_id`),
   KEY `email_id` (`email_id`),
   CONSTRAINT `students_ibfk_1` FOREIGN KEY (`email_id`) REFERENCES `users` (`email_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) 
+
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
